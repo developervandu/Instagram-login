@@ -1,0 +1,150 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-page {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 18px;
+}
+.left-img-div {
+    display: flex;
+    height: auto;
+    width: 430px;
+}
+.phone-bg1, .phone-bg2 {
+    width: 80%;
+    height: 600px;
+    background-image: url("./assets/mobile-cover.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px 0px;
+}
+.phone-bg2 {
+    /* margin-left: -300px; */
+    transform: translate(-195px, 5px);
+    margin-top: 25px;
+}
+#profile {
+    margin: 16px 14px;
+    width: 270px;
+    height: 560px
+}
+#home {
+    margin: 11px 12px;
+    width: 275px;
+    height: 575px;
+}
+.right-page-div {
+    border: 0.4px solid rgba(37, 37, 37, 0.291);
+    width: 370px;
+    padding: 20px 0px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+
+}
+#logo {
+    width: 170px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.right-page-text input {
+    width: 240px;
+    outline: none;
+    padding: 10px;
+    background-color: #FAFAFA;
+    border: 0.4px solid rgba(37, 37, 37, 0.291);
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+input::placeholder {
+    font-size: 12px;
+}
+.log-btn {
+    width: 265px;
+    border: 0.50px solid rgba(0, 0, 0, 0);
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #4BB4F8;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 12px 0px;
+
+}
+
+h5 {
+    margin: 0px 20px;
+    overflow: hidden;
+    text-align: center;
+    color: gray;
+}
+h5:before,
+h5:after {
+    background-color: rgba(37, 37, 37, 0.291);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 70%;
+}
+h5:before {
+    right: 1em;
+    margin-left: -50%;
+}
+h5:after {
+    left: 1em;
+    margin-right: -50%;
+}
+.facebook-ex {
+    display: flex;
+    justify-content: center;
+    color: #385185;
+    font-weight: 600;
+    text-align: center;
+}
+.facebook-ex img {
+    margin-right: 10px;
+}
+.Forgot {
+    margin-top: 10px;
+    font-size: 12px;
+}
+.sign {
+    border: 1px solid rgba(37, 37, 37, 0.291);
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 13px;
+}
+.sign a {
+    color: #4BB4F8;
+    font-weight: 600;
+    text-decoration: none;
+}
+.outer-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.apps {
+    text-align: center;
+    width: 350px;
+}
+.apps p {
+    margin-top: 15px;
+}
+.app-exa img {
+    width: 150px;
+}
+#microsoft  {
+    width: 150px;
+    height: 50px;
+}
